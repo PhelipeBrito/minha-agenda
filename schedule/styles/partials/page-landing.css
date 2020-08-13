@@ -1,0 +1,82 @@
+#page-landing .title-container {
+    color: var(--color-title);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5.5rem;
+    line-height: 10rem;
+    margin-bottom: -1.2rem;
+
+}
+
+#page-landing .title-container .title-element {
+   margin-left: -10rem;
+}
+
+#page-landing .link-container{
+    width: 50vw;
+    margin: 5px auto;
+    padding: 0;
+}
+
+#page-landing .link-container p {
+   font-size: 1.5rem;
+   margin-bottom: 4.5rem;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.5rem;
+   line-height: 0;
+   color: var(--color-text-lightgrey);
+
+}
+
+#page-landing .link-container a {
+    font-size: 1.2rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 100;
+    color: var(--color-white);
+    transition: 0.2s;
+}
+
+#page-landing .link-container a:hover {
+    color: var(--color-text-lightgrey)
+}
+
+#page-landing .link-container a img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+@media (min-width:1100px) {
+    #page-landing .title-container {
+        font-size: 7.5rem;
+        display: flex;
+        align-items: center;
+        line-height: 12rem;
+        margin-bottom: 3rem;
+    }
+
+    #page-landing .link-container {
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #page-landing .link-container p {
+        font-size: 2.2rem;
+        margin: 0;
+    }
+    #page-landing .link-container a {
+        font-size: 2rem;
+        margin-top: 2rem;   
+     }
+}
+
+
+
