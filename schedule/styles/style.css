@@ -3,6 +3,8 @@
     --color-title: #C8F511;
     --color-white: #ffffff;
     --color-text-lightgrey: #eeeeee;
+    --color-text-schedule-item: #dddddd;
+    --color-background-secondary: #222222;
     font-size: 60%; /*rem*/
 }
 
