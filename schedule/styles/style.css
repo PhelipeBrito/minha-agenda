@@ -1,8 +1,9 @@
 :root {
-    --color-background: #555B94;
-    --color-title: #C8F511;
+    --color-background: #eeeeee;
+    --color-title: #333333;
     --color-white: #ffffff;
-    --color-text-lightgrey: #eeeeee;
+    --color-text-lightgrey: #333333;
+    --color-link-footer: #bbbbbb;
     --color-text-schedule-item: #dddddd;
     --color-background-secondary: #222222;
     font-size: 60%; /*rem*/
