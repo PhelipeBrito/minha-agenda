@@ -21,7 +21,7 @@
 
 .accordion__button {
     display:block;
-    width: 80%;
+    width: 95%;
     padding: 15px;
     margin: 0 auto;
     border: none;
@@ -44,7 +44,7 @@
 .accordion__button--active::after{content: "\25b4";}
 
 .accordion__content {
-    width: 80%;
+    width: 95%;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s;
@@ -60,9 +60,25 @@
 
 .schedule-item {
     padding: 0.8rem;
-    display: flex;
     
 
+}
+
+#page-landing .schedule-item .schedule-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+#page-landing .schedule-item .schedule-item-header h1 {
+    font-size: 1.5rem;
+    color: var(--color-white)
 }
 
 .schedule-item button {
@@ -70,7 +86,10 @@
     background: none;
     outline: none;
     cursor: pointer;
+    
     color: var(--color-white);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 
 
 
@@ -78,7 +97,8 @@
 
 .schedule-item p {
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 
     
 }
