@@ -60,23 +60,41 @@
 
 .schedule-item {
     padding: 0.8rem;
+    display: flex;
+    
+
+}
+
+.schedule-item button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--color-white);
+
+
 
 }
 
 .schedule-item p {
-    color: var(--color-text-lightgrey);
+    color: var(--color-white);
     font-size: 1rem;
+
+    
 }
 
 .schedule-time {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--color-white);
 }
 
 .schedule-task {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--color-white);
+
 }
+
+
 
 #footer {
     position: absolute;
