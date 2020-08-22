@@ -24,10 +24,12 @@ html, #page-landing {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 #container {
     width: 90vw;
     max-width: 1100px;
+
 }
 
