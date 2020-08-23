@@ -45,6 +45,8 @@
     border: none;
 
     margin-top: 1rem;
+
+    cursor: pointer;
 }
 
 #schedule .schedule-item {
@@ -52,7 +54,7 @@
 }
 
 #schedule .schedule-item label {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 #schedule .schedule-item select {
@@ -80,6 +82,11 @@
     height: 3rem;
     font-size: 2.5rem;
     text-align: center;
+}
+
+#schedule .schedule-item+.schedule-item {
+    border-top: 1px solid #aaaaaa;
+    padding-top: 1rem;
 }
 
 #schedule .schedule-item p {
