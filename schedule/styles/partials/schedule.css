@@ -118,3 +118,21 @@
     text-decoration: none;
     color: var(--color-link-footer);
 }
+
+@media (min-width: 1100px) {
+    #schedule{
+        width: 42vw;
+        display: block;
+    }
+    #schedule .schedule-item label{
+        font-size: 1.5rem;
+    }
+
+    #schedule .schedule-item select {
+        font-size: 1.5rem;
+    }
+
+    #schedule .schedule-item p {
+        font-size: 1.5rem;
+    }
+}
