@@ -81,7 +81,8 @@ class App extends React.Component{
               type="text" 
               name="task" 
               placeholder="Digite sua tarefa" 
-              onChange={e => this.updateInput("newTask", e.target.value)} />
+              onChange={e => this.updateInput("newTask", e.target.value)} 
+            />
           </div>
 
           <div className="input-block">
@@ -105,7 +106,7 @@ class App extends React.Component{
           {
           this.state.list.map(item => {
             return(   
-            <tr key={item.id} className="listItem">
+            <tr key={item.id}>
               <td >
                   {item.task}
               </td>
