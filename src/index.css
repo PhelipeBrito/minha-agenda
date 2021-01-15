@@ -1,0 +1,118 @@
+root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*container*/
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.container h1 {
+    font-size: 3.5rem;
+    font-family: "Times New Roman",Times, sans-serif;
+    font-weight: 200;
+
+    margin-bottom: 1.1rem;
+}
+
+/*Add-container*/
+
+.add-table {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 55%;
+
+}
+
+.add-table #add-block-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-table label {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+
+    margin: .3rem;
+}
+
+.add-table  button{
+    background: none;
+    border: none;
+
+    color: rgb(0, 160, 0);
+    font-size: 3rem;
+}
+
+.input-block {
+    margin: .9rem;
+}
+
+.input-block input{
+    width: 7rem;
+    height: 1.7rem;
+}
+
+
+/* Tabela */
+table {
+    width: 55%;
+    border-collapse: collapse;
+}
+
+table .table-header{
+    background-color: black;
+    
+
+}
+
+
+table th {
+    color: white; 
+    text-align: center;
+    
+
+}
+table th, td{
+    padding: 1rem;
+    border: 1px solid black;
+
+    width: 40%;
+}
+
+table .table-button {
+    text-align: center;
+
+}
+
+table .table-button button {
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+    color: rgb(200, 0, 0);
+
+    transition: .1s all .1s;
+}
+
+table .table-button button:hover {
+    color: rgb(230, 0, 0);
+}
+
